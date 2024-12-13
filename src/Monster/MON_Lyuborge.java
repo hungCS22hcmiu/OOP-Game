@@ -24,7 +24,7 @@ public class MON_Lyuborge extends Entity {
         name = monName;
         defaultSpeed = 1;
         speed = defaultSpeed;
-        maxLife = 3;
+        maxLife = 1;
         life = maxLife;
         attack = 3;
         defence = 0;
