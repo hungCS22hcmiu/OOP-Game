@@ -13,7 +13,7 @@ public class EnvironmentManager {
     }
 
     public void setUp(){
-        lighting = new EM_Lighting(gp, 450);
+        lighting = new EM_Lighting(gp, 2000);
     }
 
     public void update(){

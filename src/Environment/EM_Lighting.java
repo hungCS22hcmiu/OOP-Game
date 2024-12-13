@@ -13,7 +13,7 @@ public class EM_Lighting {
     GamePanel gp;
     BufferedImage darknessFilter;
     public float filterAlpha = 0f;
-
+    
     public EM_Lighting(GamePanel gp, int circleSize){
         this.gp = gp;
 

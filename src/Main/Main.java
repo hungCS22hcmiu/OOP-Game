@@ -10,7 +10,7 @@ public class Main {
         window = new JFrame();
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         window.setResizable(false);
-        window.setTitle("Rising from the Depths: OOP Project!");
+        window.setTitle("Java Game");
         new Main().setIcon();
 
         GamePanel gamePanel = new GamePanel();

@@ -227,7 +227,7 @@ public class AssetSetter {
         monsterSetter(new MON_Small_Orc(gp), mapNum, i,4,21); i++; monsterSetter(new MON_Small_Orc(gp), mapNum, i,15,46); i++;
         monsterSetter(new MON_Small_Orc(gp), mapNum, i,11,20); i++; monsterSetter(new MON_Small_Orc(gp), mapNum, i,26,46);
 
-        // BOSS MAP
+        // BOSS MAP  
         mapNum = 4;
         i = 0;
 

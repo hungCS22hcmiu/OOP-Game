@@ -111,9 +111,9 @@ public class UI {
         }
 
         // SLEEP STATE
-        if (gp.gameState == gp.sleepState){
-            drawSleepScreen();
-        }
+        // if (gp.gameState == gp.sleepState){
+        //     drawSleepScreen();
+        // }
     }
 
     public void drawPlayerLife(){
@@ -237,12 +237,14 @@ public class UI {
 
     public void drawTitleScreen(){
         // BACKGROUND COLOR
-        g2.setColor(new Color(105,105,105));
+        //g2.setColor(new Color(105,105,105));
+        // black color
+        g2.setColor(new Color(0,0,0));
         g2.fillRect(0,0,gp.screenWidth, gp.screenHeight);
 
         // TITLE NAME
         g2.setFont(g2.getFont().deriveFont(Font.BOLD, 96F));
-        String text = "Rising from the Depths";
+        String text = "Catching the life";
         int x = getXForCenteredText(text);
         int y = gp.tileSize * 3;
 
