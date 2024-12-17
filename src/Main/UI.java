@@ -964,26 +964,26 @@ public class UI {
         }
     }
 
-    public void drawSleepScreen(){
-        counter++;
+    // public void drawSleepScreen(){
+    //     counter++;
 
-        if (counter < 120){
-            gp.eManager.lighting.filterAlpha += 0.01f;
-            if (gp.eManager.lighting.filterAlpha > 1f){
-                gp.eManager.lighting.filterAlpha = 1f;
-            }
-        }
+    //     if (counter < 120){
+    //         gp.eManager.lighting.filterAlpha += 0.01f;
+    //         if (gp.eManager.lighting.filterAlpha > 1f){
+    //             gp.eManager.lighting.filterAlpha = 1f;
+    //         }
+    //     }
 
-        if (counter >= 120){
-            gp.eManager.lighting.filterAlpha -= 0.01f;
-            if (gp.eManager.lighting.filterAlpha <= 0f){
-                gp.eManager.lighting.filterAlpha = 0f;
-                counter = 0;
-                gp.gameState = gp.playState;
-                gp.player.getImage();
-            }
-        }
-    }
+    //     if (counter >= 120){
+    //         gp.eManager.lighting.filterAlpha -= 0.01f;
+    //         if (gp.eManager.lighting.filterAlpha <= 0f){
+    //             gp.eManager.lighting.filterAlpha = 0f;
+    //             counter = 0;
+    //             gp.gameState = gp.playState;
+    //             gp.player.getImage();
+    //         }
+    //     }
+    // }
 
     public void drawTransition(){
 

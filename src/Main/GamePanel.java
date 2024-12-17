@@ -4,7 +4,7 @@ import Ai.Pathfinder;
 import Data.SaveLoad;
 import Entity.Entity;
 import Entity.Player;
-import Environment.EnvironmentManager;
+//import Environment.EnvironmentManager;
 import Tile.Map;
 import Tile.TileManager;
 import TileInteractive.InteractiveTile;
@@ -55,7 +55,7 @@ public class GamePanel extends JPanel implements Runnable {
     public EventHandler eHandler = new EventHandler(this);
     Config config = new Config(this);     
     public Pathfinder pFinder = new Pathfinder(this);
-    public EnvironmentManager eManager = new EnvironmentManager(this);
+    //public EnvironmentManager eManager = new EnvironmentManager(this);
     Map map = new Map(this);
     SaveLoad saveLoad = new SaveLoad(this);
     public EntityGenerator eGenerator = new EntityGenerator(this);
@@ -104,7 +104,7 @@ public class GamePanel extends JPanel implements Runnable {
         aSetter.setNPC();
         aSetter.setMonster();
         aSetter.setInteractiveTiles();
-        eManager.setUp();
+        //eManager.setUp();
         gameState = titleState;
     }
 
@@ -216,7 +216,7 @@ public class GamePanel extends JPanel implements Runnable {
                 }
             }
 
-            eManager.update();
+            //eManager.update();
         }
 
         // We don't update player's information while the game is paused
@@ -303,7 +303,7 @@ public class GamePanel extends JPanel implements Runnable {
             entityList.clear();
 
             // ENVIRONMENT
-            eManager.draw(g2);
+            //eManager.draw(g2);
 
             // MINI MAP
             map.drawMiniMap(g2);
