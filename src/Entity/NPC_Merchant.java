@@ -25,7 +25,7 @@ public class NPC_Merchant extends Entity{
         left2 = setup("/Resources/NPC/merchant_down_1", gp.tileSize, gp.tileSize);
         right1 = setup("/Resources/NPC/merchant_down_1", gp.tileSize, gp.tileSize);
         right2 = setup("/Resources/NPC/merchant_down_1", gp.tileSize, gp.tileSize);
-    }
+    }   
 
     // Store character dialogues
     public void setDialogue(){

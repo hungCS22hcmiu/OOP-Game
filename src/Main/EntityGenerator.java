@@ -20,7 +20,7 @@ public class EntityGenerator {
         this.gp = gp;
     }
 
-    public Entity getObject(String itemName){
+    public Entity getObject(String itemName){   
         return switch (itemName) {
             case OBJ_Axe.objName -> new OBJ_Axe(gp);
             case OBJ_BlankCandle.objName -> new OBJ_BlankCandle(gp);

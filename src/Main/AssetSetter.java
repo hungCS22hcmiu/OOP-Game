@@ -3,7 +3,7 @@ package Main;
 import Entity.Entity;
 import Entity.NPC_DungeonKeeper;
 import Entity.NPC_Merchant;
-import Entity.NPC_BigRock;
+//import Entity.NPC_BigRock;
 import Monster.*;
 import Obj.*;
 import Obj.Consumables.*;
@@ -12,9 +12,9 @@ import Obj.Letters.OBJ_Hint_Letter;
 import Obj.Letters.OBJ_Motivational_Letter;
 import Obj.Shields.OBJ_Shield_Iron;
 import Obj.Weapons.OBJ_Sword_Steel;
-import TileInteractive.IT_DestructibleWall;
-import TileInteractive.IT_DryTree;
-import TileInteractive.IT_MetalPlate;
+//import TileInteractive.IT_DestructibleWall;
+//import TileInteractive.IT_DryTree;
+//import TileInteractive.IT_MetalPlate;
 
 public class AssetSetter {
 
@@ -257,78 +257,78 @@ public class AssetSetter {
         monsterSetter(new MON_Lyuborge(gp), mapNum, i, 38, 14);
     }
     public void setInteractiveTiles(){
-        int mapNum = 0;
-        int i = 0;
+        // int mapNum = 0;
+        // int i = 0;
 
-       gp.iTile[mapNum][i] = new IT_DryTree(gp, 27, 12);i++;
-       gp.iTile[mapNum][i] = new IT_DryTree(gp, 28, 12);i++;
-       gp.iTile[mapNum][i] = new IT_DryTree(gp, 29, 12);i++;
-       gp.iTile[mapNum][i] = new IT_DryTree(gp, 30, 12);i++;
-       gp.iTile[mapNum][i] = new IT_DryTree(gp, 31, 12);i++;
-       gp.iTile[mapNum][i] = new IT_DryTree(gp, 32, 12);i++;
-       gp.iTile[mapNum][i] = new IT_DryTree(gp, 33, 12);i++;
-       gp.iTile[mapNum][i] = new IT_DryTree(gp, 31, 21);i++;
+    //    gp.iTile[mapNum][i] = new IT_DryTree(gp, 27, 12);i++;
+    //    gp.iTile[mapNum][i] = new IT_DryTree(gp, 28, 12);i++;
+    //    gp.iTile[mapNum][i] = new IT_DryTree(gp, 29, 12);i++;
+    //    gp.iTile[mapNum][i] = new IT_DryTree(gp, 30, 12);i++;
+    //    gp.iTile[mapNum][i] = new IT_DryTree(gp, 31, 12);i++;
+    //    gp.iTile[mapNum][i] = new IT_DryTree(gp, 32, 12);i++;
+    //    gp.iTile[mapNum][i] = new IT_DryTree(gp, 33, 12);i++;
+    //    gp.iTile[mapNum][i] = new IT_DryTree(gp, 31, 21);i++;
 
-       gp.iTile[mapNum][i] = new IT_DryTree(gp, 13, 40);i++;
-       gp.iTile[mapNum][i] = new IT_DryTree(gp, 14, 40);i++;
-       gp.iTile[mapNum][i] = new IT_DryTree(gp, 15, 40);i++;
-       gp.iTile[mapNum][i] = new IT_DryTree(gp, 16, 40);i++;
-       gp.iTile[mapNum][i] = new IT_DryTree(gp, 17, 40);i++;
-       gp.iTile[mapNum][i] = new IT_DryTree(gp, 18, 40);i++;
-       gp.iTile[mapNum][i] = new IT_DryTree(gp, 13, 41);i++;
-       gp.iTile[mapNum][i] = new IT_DryTree(gp, 12, 41);i++;
-       gp.iTile[mapNum][i] = new IT_DryTree(gp, 11, 41);i++;
-       gp.iTile[mapNum][i] = new IT_DryTree(gp, 10, 41);i++;
-       gp.iTile[mapNum][i] = new IT_DryTree(gp, 10, 40);i++;
+    //    gp.iTile[mapNum][i] = new IT_DryTree(gp, 13, 40);i++;
+    //    gp.iTile[mapNum][i] = new IT_DryTree(gp, 14, 40);i++;
+    //    gp.iTile[mapNum][i] = new IT_DryTree(gp, 15, 40);i++;
+    //    gp.iTile[mapNum][i] = new IT_DryTree(gp, 16, 40);i++;
+    //    gp.iTile[mapNum][i] = new IT_DryTree(gp, 17, 40);i++;
+    //    gp.iTile[mapNum][i] = new IT_DryTree(gp, 18, 40);i++;
+    //    gp.iTile[mapNum][i] = new IT_DryTree(gp, 13, 41);i++;
+    //    gp.iTile[mapNum][i] = new IT_DryTree(gp, 12, 41);i++;
+    //    gp.iTile[mapNum][i] = new IT_DryTree(gp, 11, 41);i++;
+    //    gp.iTile[mapNum][i] = new IT_DryTree(gp, 10, 41);i++;
+    //    gp.iTile[mapNum][i] = new IT_DryTree(gp, 10, 40);i++;
 
-       gp.iTile[mapNum][i] = new IT_DryTree(gp, 25, 27);i++;
-       gp.iTile[mapNum][i] = new IT_DryTree(gp, 26, 27);i++;
-       gp.iTile[mapNum][i] = new IT_DryTree(gp, 27, 28);i++;
-       gp.iTile[mapNum][i] = new IT_DryTree(gp, 27, 29);i++;
-       gp.iTile[mapNum][i] = new IT_DryTree(gp, 28, 31);i++;
-       gp.iTile[mapNum][i] = new IT_DryTree(gp, 29, 31);i++;
-       gp.iTile[mapNum][i] = new IT_DryTree(gp, 30, 30);
+    //    gp.iTile[mapNum][i] = new IT_DryTree(gp, 25, 27);i++;
+    //    gp.iTile[mapNum][i] = new IT_DryTree(gp, 26, 27);i++;
+    //    gp.iTile[mapNum][i] = new IT_DryTree(gp, 27, 28);i++;
+    //    gp.iTile[mapNum][i] = new IT_DryTree(gp, 27, 29);i++;
+    //    gp.iTile[mapNum][i] = new IT_DryTree(gp, 28, 31);i++;
+    //    gp.iTile[mapNum][i] = new IT_DryTree(gp, 29, 31);i++;
+    //    gp.iTile[mapNum][i] = new IT_DryTree(gp, 30, 30);
 
-       mapNum = 2;
-       i = 0;
-       gp.iTile[mapNum][i] = new IT_DestructibleWall(gp, 18, 30);i++;
-       gp.iTile[mapNum][i] = new IT_DestructibleWall(gp, 17, 31);i++;
-       gp.iTile[mapNum][i] = new IT_DestructibleWall(gp, 17, 32);i++;
-       gp.iTile[mapNum][i] = new IT_DestructibleWall(gp, 17, 34);i++;
-       gp.iTile[mapNum][i] = new IT_DestructibleWall(gp, 18, 34);i++;
-       gp.iTile[mapNum][i] = new IT_DestructibleWall(gp, 18, 33);i++;
-       gp.iTile[mapNum][i] = new IT_DestructibleWall(gp, 10, 22);i++;
-       gp.iTile[mapNum][i] = new IT_DestructibleWall(gp, 10, 24);i++;
-       gp.iTile[mapNum][i] = new IT_DestructibleWall(gp, 38, 18);i++;
-       gp.iTile[mapNum][i] = new IT_DestructibleWall(gp, 38, 19);i++;
-       gp.iTile[mapNum][i] = new IT_DestructibleWall(gp, 38, 20);i++;
-       gp.iTile[mapNum][i] = new IT_DestructibleWall(gp, 38, 21);i++;
-       gp.iTile[mapNum][i] = new IT_DestructibleWall(gp, 18, 13);i++;
-       gp.iTile[mapNum][i] = new IT_DestructibleWall(gp, 18, 14);i++;
-       gp.iTile[mapNum][i] = new IT_DestructibleWall(gp, 22, 28);i++;
-       gp.iTile[mapNum][i] = new IT_DestructibleWall(gp, 30, 28);i++;
-       gp.iTile[mapNum][i] = new IT_DestructibleWall(gp, 32, 28);i++;
+    //    mapNum = 2;
+    //    i = 0;
+    //    gp.iTile[mapNum][i] = new IT_DestructibleWall(gp, 18, 30);i++;
+    //    gp.iTile[mapNum][i] = new IT_DestructibleWall(gp, 17, 31);i++;
+    //    gp.iTile[mapNum][i] = new IT_DestructibleWall(gp, 17, 32);i++;
+    //    gp.iTile[mapNum][i] = new IT_DestructibleWall(gp, 17, 34);i++;
+    //    gp.iTile[mapNum][i] = new IT_DestructibleWall(gp, 18, 34);i++;
+    //    gp.iTile[mapNum][i] = new IT_DestructibleWall(gp, 18, 33);i++;
+    //    gp.iTile[mapNum][i] = new IT_DestructibleWall(gp, 10, 22);i++;
+    //    gp.iTile[mapNum][i] = new IT_DestructibleWall(gp, 10, 24);i++;
+    //    gp.iTile[mapNum][i] = new IT_DestructibleWall(gp, 38, 18);i++;
+    //    gp.iTile[mapNum][i] = new IT_DestructibleWall(gp, 38, 19);i++;
+    //    gp.iTile[mapNum][i] = new IT_DestructibleWall(gp, 38, 20);i++;
+    //    gp.iTile[mapNum][i] = new IT_DestructibleWall(gp, 38, 21);i++;
+    //    gp.iTile[mapNum][i] = new IT_DestructibleWall(gp, 18, 13);i++;
+    //    gp.iTile[mapNum][i] = new IT_DestructibleWall(gp, 18, 14);i++;
+    //    gp.iTile[mapNum][i] = new IT_DestructibleWall(gp, 22, 28);i++;
+    //    gp.iTile[mapNum][i] = new IT_DestructibleWall(gp, 30, 28);i++;
+    //    gp.iTile[mapNum][i] = new IT_DestructibleWall(gp, 32, 28);i++;
 
-       gp.iTile[mapNum][i] = new IT_MetalPlate(gp, 20, 22);i++;
-       gp.iTile[mapNum][i] = new IT_MetalPlate(gp, 8, 17);i++;
-       gp.iTile[mapNum][i] = new IT_MetalPlate(gp, 39, 31);
+    //    gp.iTile[mapNum][i] = new IT_MetalPlate(gp, 20, 22);i++;
+    //    gp.iTile[mapNum][i] = new IT_MetalPlate(gp, 8, 17);i++;
+    //    gp.iTile[mapNum][i] = new IT_MetalPlate(gp, 39, 31);
     }
     public void setDungeonRocks(){
-        int mapNum = 2;
-        int i = 0;
+        // int mapNum = 2;
+        // int i = 0;
 
-        gp.npc[mapNum][i] = new NPC_BigRock(gp);
-        gp.npc[mapNum][i].worldX = gp.tileSize * 20;
-        gp.npc[mapNum][i].worldY = gp.tileSize * 25;
+        // gp.npc[mapNum][i] = new NPC_BigRock(gp);
+        // gp.npc[mapNum][i].worldX = gp.tileSize * 20;
+        // gp.npc[mapNum][i].worldY = gp.tileSize * 25;
 
-        gp.npc[mapNum][i] = new NPC_BigRock(gp);
-        gp.npc[mapNum][i].worldX = gp.tileSize * 11;
-        gp.npc[mapNum][i].worldY = gp.tileSize * 19;
-        i++;
+        // gp.npc[mapNum][i] = new NPC_BigRock(gp);
+        // gp.npc[mapNum][i].worldX = gp.tileSize * 11;
+        // gp.npc[mapNum][i].worldY = gp.tileSize * 19;
+        // i++;
 
-        gp.npc[mapNum][i] = new NPC_BigRock(gp);
-        gp.npc[mapNum][i].worldX = gp.tileSize * 23;
-        gp.npc[mapNum][i].worldY = gp.tileSize * 14;
+        // gp.npc[mapNum][i] = new NPC_BigRock(gp);
+        // gp.npc[mapNum][i].worldX = gp.tileSize * 23;
+        // gp.npc[mapNum][i].worldY = gp.tileSize * 14;
     }
 
     public void monsterSetter(Entity entity, int mapNum, int index, int col, int row){

@@ -11,7 +11,7 @@ public class OBJ_BlankCandle extends Entity {
 
     public OBJ_BlankCandle(GamePanel gp) {
         super(gp);
-        this.gp = gp;
+        this.gp = gp;  
 
         type = type_obstacle;
         name = objName;

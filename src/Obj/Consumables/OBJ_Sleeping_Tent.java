@@ -7,7 +7,7 @@ public class OBJ_Sleeping_Tent extends Entity {
     GamePanel gp;
     public static final String objName = "The Adventurer's Haven";
 
-    public OBJ_Sleeping_Tent(GamePanel gp) {
+    public OBJ_Sleeping_Tent(GamePanel gp) {  
         super(gp);
         this.gp = gp;
 
